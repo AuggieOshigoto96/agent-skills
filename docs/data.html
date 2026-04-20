@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data & ML Roadmap — Augustine's Portfolio</title>
+<meta name="description" content="Forward-looking roadmap of Claude Skills for data engineering, GenAI evaluation, and ML security — aligned to Databricks GenAI, AWS ML, and Georgia Tech OMSCS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="page-data">
+
+<div class="bg-mesh"><div class="orb-3"></div></div>
+<div class="grain"></div>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="index.html" class="logo">cyber.skills/</a>
+    <div class="nav-links">
+      <a href="index.html" data-page="index.html">Cyber</a>
+      <a href="data.html" data-page="data.html">Data</a>
+      <a href="game.html" data-page="game.html">Play</a>
+      <a href="https://github.com/yourusername/cyber-skills" target="_blank">GitHub ↗</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-tag soon reveal">
+      <span class="dot"></span>
+      <span>Roadmap · Shipping through 2027</span>
+    </div>
+    <h1 class="reveal">
+      Open-source <em>AI-powered tools</em> for people working in <em>data</em> and <em>ML</em>.
+    </h1>
+    <p class="lede reveal">
+      A forward-looking roadmap of Claude Skills and Python utilities for data engineers, ML engineers, and AI governance practitioners. Covers GenAI evaluation, data pipeline hardening, and ML security — shipping in order.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#planned" class="btn btn-primary">
+        See planned skills →
+      </a>
+      <a href="#roadmap" class="btn btn-ghost">Certification timeline</a>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="planned">
+  <div class="wrap">
+    <div class="section-label reveal">// Shipping progress</div>
+    <h2 class="section-title reveal">Three shipped. <em>Five in motion.</em></h2>
+
+    <div class="coming-soon">
+
+      <div class="soon-card shipped reveal">
+        <div class="soon-eta">SHIPPED · 2026</div>
+        <div class="soon-title">RAG Evaluation Harness</div>
+        <p class="soon-desc">
+          Multi-dimensional evaluation for RAG systems: retrieval quality (recall@k, precision, MRR), generation quality (faithfulness, answer relevance), and hallucination scoring. Outputs compatible with Mosaic AI Agent Evaluation and MLflow.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">RAG Eval</span>
+          <span class="skill-tag">Mosaic AI</span>
+          <span class="skill-tag">MLflow</span>
+          <span class="skill-tag">Databricks</span>
+        </div>
+      </div>
+
+      <div class="soon-card shipped reveal">
+        <div class="soon-eta">SHIPPED · 2026</div>
+        <div class="soon-title">Notebook Security Linter</div>
+        <p class="soon-desc">
+          Scans Databricks notebooks for hardcoded secrets, PII disclosure, unsafe shell commands, and cost anti-patterns. Redacts matches, maps to <code>dbutils.secrets</code> remediation, and integrates into pre-commit hooks.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">Databricks</span>
+          <span class="skill-tag">Secret Scanning</span>
+          <span class="skill-tag">CI/CD</span>
+        </div>
+      </div>
+
+      <div class="soon-card shipped reveal">
+        <div class="soon-eta">SHIPPED · 2026</div>
+        <div class="soon-title">Unity Catalog Access Review</div>
+        <p class="soon-desc">
+          Audits Databricks Unity Catalog grants for over-permissive access, wildcard privileges, and missing masking on PII columns. Ranks findings by blast radius with ready-to-paste remediation SQL.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">Unity Catalog</span>
+          <span class="skill-tag">Data Governance</span>
+          <span class="skill-tag">PDPA (SG)</span>
+        </div>
+      </div>
+
+      <div class="soon-card reveal">
+        <div class="soon-eta">Q3 2026</div>
+        <div class="soon-title">MCP Server Auditor</div>
+        <p class="soon-desc">
+          Reviews MCP tool definitions for confused-deputy, tool-poisoning, and excessive-agency risks. Produces an auditor report aligned to AI governance frameworks.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">MCP</span>
+          <span class="skill-tag">AI Governance</span>
+          <span class="skill-tag">ISO 42001</span>
+        </div>
+      </div>
+
+      <div class="soon-card reveal">
+        <div class="soon-eta">Q4 2026</div>
+        <div class="soon-title">AI Training Data Poisoning Simulator</div>
+        <p class="soon-desc">
+          A testbed that injects controlled poisoning signals into training data and measures downstream model drift. Useful for red-teaming fine-tuning pipelines.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">ML Security</span>
+          <span class="skill-tag">Data Poisoning</span>
+          <span class="skill-tag">Fine-tuning</span>
+        </div>
+      </div>
+
+      <div class="soon-card reveal">
+        <div class="soon-eta">Q1 2027</div>
+        <div class="soon-title">On-Chain Anomaly Detector</div>
+        <p class="soon-desc">
+          Graph-based anomaly detection over wallet transaction patterns. Targeted at Web3 custody platforms and on-chain threat intelligence use cases.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">Web3</span>
+          <span class="skill-tag">Graph ML</span>
+          <span class="skill-tag">Threat Intel</span>
+        </div>
+      </div>
+
+      <div class="soon-card reveal">
+        <div class="soon-eta">Q2 2027</div>
+        <div class="soon-title">Feature Store Drift Monitor</div>
+        <p class="soon-desc">
+          Drift detection across feature-store columns with configurable statistical tests. Surfaces early warning signs of data quality regressions in production ML pipelines.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">MLOps</span>
+          <span class="skill-tag">Drift Detection</span>
+          <span class="skill-tag">Observability</span>
+        </div>
+      </div>
+
+      <div class="soon-card reveal">
+        <div class="soon-eta">Q4 2027</div>
+        <div class="soon-title">ISO 42001 Compliance Auditor</div>
+        <p class="soon-desc">
+          Maps an AI system's documentation, controls, and evidence against ISO/IEC 42001 requirements. Outputs a gap report and remediation roadmap for AI governance reviews.
+        </p>
+        <div class="soon-tags">
+          <span class="skill-tag">ISO 42001</span>
+          <span class="skill-tag">Compliance</span>
+          <span class="skill-tag">AI Governance</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="roadmap">
+  <div class="wrap">
+    <div class="section-label reveal">// Certification timeline</div>
+    <h2 class="section-title reveal">The learning path <em>behind the skills.</em></h2>
+    <p class="lede reveal" style="max-width: 720px; color: var(--ink-mid); margin-bottom: 40px;">
+      Every skill on this page is anchored to a real certification or course I'm working toward. The skills aren't just portfolio pieces — they're how I demonstrate the material while I'm learning it.
+    </p>
+
+    <div class="roadmap reveal">
+      <div class="roadmap-row">
+        <div class="roadmap-date">2026 Q2</div>
+        <div class="roadmap-content">
+          <h4>Databricks GenAI Associate</h4>
+          <p>Foundation for the LLM Hallucination Scorer and the Databricks Notebook Auditor. Covers prompt engineering, RAG evaluation, and Unity Catalog governance.</p>
+        </div>
+      </div>
+
+      <div class="roadmap-row">
+        <div class="roadmap-date">2026 Q3</div>
+        <div class="roadmap-content">
+          <h4>AWS Security Specialty</h4>
+          <p>Deepens the AWS IAM Reviewer with account-scoped policy analysis, GuardDuty integration, and cross-account audit workflows.</p>
+        </div>
+      </div>
+
+      <div class="roadmap-row">
+        <div class="roadmap-date">2027 Q1</div>
+        <div class="roadmap-content">
+          <h4>Databricks Data Engineer · ML Associate</h4>
+          <p>Builds out the Feature Store Drift Monitor and MLOps-side tooling.</p>
+        </div>
+      </div>
+
+      <div class="roadmap-row">
+        <div class="roadmap-date">2027 Q3</div>
+        <div class="roadmap-content">
+          <h4>AWS ML Associate · CISSP</h4>
+          <p>Closes the cloud ML gap while establishing broader security leadership credentials.</p>
+        </div>
+      </div>
+
+      <div class="roadmap-row">
+        <div class="roadmap-date">2027 Q4</div>
+        <div class="roadmap-content">
+          <h4>ISO 42001 Lead Implementer</h4>
+          <p>Directly powers the ISO 42001 Compliance Auditor skill.</p>
+        </div>
+      </div>
+
+      <div class="roadmap-row">
+        <div class="roadmap-date">2028 → 2031</div>
+        <div class="roadmap-content">
+          <h4>Georgia Tech OMSCS · ML Specialization</h4>
+          <p>Graduate-level ML coursework supporting deeper research-oriented skills. Target graduation 2031.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-cta reveal">
+      Want to <em>collaborate</em> on any of these?
+    </div>
+    <div class="hero-actions" style="justify-content: center;">
+      <a href="https://github.com/yourusername/cyber-skills" class="btn btn-primary">
+        Watch the repo →
+      </a>
+      <a href="index.html" class="btn btn-ghost">
+        See what's shipped →
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Cyber</a>
+      <a href="https://github.com/yourusername/cyber-skills">GitHub</a>
+      <a href="https://www.databricks.com/learn/certification">Databricks Certs</a>
+      <a href="https://omscs.gatech.edu/">GT OMSCS</a>
+    </div>
+    <div class="copyright">
+      Built with Claude · MIT License · © 2026
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

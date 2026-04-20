@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Skills — Augustine's Portfolio</title>
+<meta name="description" content="Four Claude Skills for SOC alert triage, detection engineering, LLM red-teaming, and AWS IAM auditing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="page-cyber">
+
+<div class="bg-mesh"><div class="orb-3"></div></div>
+<div class="grain"></div>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="index.html" class="logo">cyber.skills/</a>
+    <div class="nav-links">
+      <a href="index.html" data-page="index.html">Cyber</a>
+      <a href="data.html" data-page="data.html">Data</a>
+      <a href="game.html" data-page="game.html">Play</a>
+      <a href="https://github.com/yourusername/cyber-skills" target="_blank">GitHub ↗</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-tag reveal">
+      <span class="dot"></span>
+      <span>Open-source toolkit · 5 production-ready skills</span>
+    </div>
+    <h1 class="reveal">
+      Open-source <em>AI-powered tools</em> for people working in <em>cyber security</em>.
+    </h1>
+    <p class="lede reveal">
+      A curated toolkit of Claude Skills and Python utilities for SOC analysts, detection engineers, AI security engineers, and cloud security auditors. Free, reproducible, and built to produce structured, audit-ready output.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="https://github.com/yourusername/cyber-skills" class="btn btn-primary">
+        Clone on GitHub →
+      </a>
+      <a href="#skills" class="btn btn-ghost">See live demos</a>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="section-label reveal">// The toolkit</div>
+    <h2 class="section-title reveal">Five skills. <em>Every security workflow.</em></h2>
+
+    <!-- Skill 1: Alert Triage -->
+    <div class="skill">
+      <div class="skill-info reveal">
+        <div class="skill-num">01 / SOC Operations</div>
+        <h3>Alert Triage</h3>
+        <p class="skill-desc">
+          Paste raw alert JSON from Defender, Splunk, or Sentinel. Get back a structured verdict with MITRE ATT&amp;CK mapping, reassessed severity, and a SOAR-ready action payload in seconds.
+        </p>
+        <div class="skill-tags">
+          <span class="skill-tag">MITRE ATT&amp;CK</span>
+          <span class="skill-tag">Splunk</span>
+          <span class="skill-tag">Defender</span>
+          <span class="skill-tag">XSOAR</span>
+        </div>
+        <div class="skill-stack">
+          <strong>Stack:</strong> Python · JSON normalization · LLM reasoning
+        </div>
+      </div>
+      <div class="terminal">
+        <button class="replay-btn" data-target="demo-1">↻ replay</button>
+        <div class="term-bar">
+          <span class="term-dot r"></span>
+          <span class="term-dot y"></span>
+          <span class="term-dot g"></span>
+          <span class="term-title">alert-triage — claude</span>
+        </div>
+        <div class="term-body" id="demo-1"></div>
+      </div>
+    </div>
+
+    <!-- Skill 2: Sigma Converter -->
+    <div class="skill">
+      <div class="skill-info reveal">
+        <div class="skill-num">02 / Detection Engineering</div>
+        <h3>Sigma Rule Converter</h3>
+        <p class="skill-desc">
+          Port community Sigma rules into your SIEM of choice. Handles Splunk SPL, Sentinel KQL, MDE KQL, Elastic, and CrowdStrike — with field mapping notes and tuning suggestions preserved.
+        </p>
+        <div class="skill-tags">
+          <span class="skill-tag">Sigma</span>
+          <span class="skill-tag">SPL</span>
+          <span class="skill-tag">KQL</span>
+          <span class="skill-tag">Elastic</span>
+        </div>
+        <div class="skill-stack">
+          <strong>Stack:</strong> Python · PyYAML · Cross-SIEM field mapping
+        </div>
+      </div>
+      <div class="terminal">
+        <button class="replay-btn" data-target="demo-2">↻ replay</button>
+        <div class="term-bar">
+          <span class="term-dot r"></span>
+          <span class="term-dot y"></span>
+          <span class="term-dot g"></span>
+          <span class="term-title">sigma-converter — claude</span>
+        </div>
+        <div class="term-body" id="demo-2"></div>
+      </div>
+    </div>
+
+    <!-- Skill 3: Prompt Injection Tester -->
+    <div class="skill">
+      <div class="skill-info reveal">
+        <div class="skill-num">03 / AI Security</div>
+        <h3>Prompt Injection Tester</h3>
+        <p class="skill-desc">
+          A red-team framework that generates OWASP LLM Top 10 payloads, runs them against your endpoint, and grades responses with heuristics plus LLM-as-judge. Produces audit-ready reports mapped to LLM01, LLM02, LLM06, and LLM07.
+        </p>
+        <div class="skill-tags">
+          <span class="skill-tag">OWASP LLM Top 10</span>
+          <span class="skill-tag">Red Team</span>
+          <span class="skill-tag">MCP Security</span>
+          <span class="skill-tag">ISO 42001</span>
+        </div>
+        <div class="skill-stack">
+          <strong>Stack:</strong> Python · Anthropic API · Heuristics + LLM-as-judge
+        </div>
+      </div>
+      <div class="terminal">
+        <button class="replay-btn" data-target="demo-3">↻ replay</button>
+        <div class="term-bar">
+          <span class="term-dot r"></span>
+          <span class="term-dot y"></span>
+          <span class="term-dot g"></span>
+          <span class="term-title">prompt-injection-tester — claude</span>
+        </div>
+        <div class="term-body" id="demo-3"></div>
+      </div>
+    </div>
+
+    <!-- Skill 4: AWS IAM Reviewer -->
+    <div class="skill">
+      <div class="skill-info reveal">
+        <div class="skill-num">04 / Cloud Security</div>
+        <h3>AWS IAM Reviewer</h3>
+        <p class="skill-desc">
+          Reviews AWS IAM policies for least-privilege violations and ranks findings by blast radius. Catches classic privilege escalation paths like iam:PassRole chains, policy version overwrites, and permissive trust policies.
+        </p>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS IAM</span>
+          <span class="skill-tag">Least Privilege</span>
+          <span class="skill-tag">Privilege Escalation</span>
+          <span class="skill-tag">Cloud Audit</span>
+        </div>
+        <div class="skill-stack">
+          <strong>Stack:</strong> Python · AWS policy AST · Blast-radius scoring
+        </div>
+      </div>
+      <div class="terminal">
+        <button class="replay-btn" data-target="demo-4">↻ replay</button>
+        <div class="term-bar">
+          <span class="term-dot r"></span>
+          <span class="term-dot y"></span>
+          <span class="term-dot g"></span>
+          <span class="term-title">aws-iam-reviewer — claude</span>
+        </div>
+        <div class="term-body" id="demo-4"></div>
+      </div>
+    </div>
+
+    <!-- Skill 5: GuardDuty Finding Triage -->
+    <div class="skill">
+      <div class="skill-info reveal">
+        <div class="skill-num">05 / Cloud Security</div>
+        <h3>GuardDuty Finding Triage</h3>
+        <p class="skill-desc">
+          Cloud-native sibling to Alert Triage. Takes raw AWS GuardDuty findings and produces an incident verdict with MITRE ATT&amp;CK for Cloud mapping, context-aware severity reassessment, and runnable remediation commands. Handles 50+ finding families across EC2, IAM, S3, and EKS.
+        </p>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS GuardDuty</span>
+          <span class="skill-tag">MITRE ATT&amp;CK Cloud</span>
+          <span class="skill-tag">SOAR</span>
+          <span class="skill-tag">Cloud IR</span>
+        </div>
+        <div class="skill-stack">
+          <strong>Stack:</strong> Python · boto3 · Security Hub ASFF · AWS CLI
+        </div>
+      </div>
+      <div class="terminal">
+        <button class="replay-btn" data-target="demo-5">↻ replay</button>
+        <div class="term-bar">
+          <span class="term-dot r"></span>
+          <span class="term-dot y"></span>
+          <span class="term-dot g"></span>
+          <span class="term-title">guardduty-triage — claude</span>
+        </div>
+        <div class="term-body" id="demo-5"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-label reveal">// The approach</div>
+    <h2 class="section-title reveal">Scripts for <em>determinism</em>. Claude for <em>judgment</em>.</h2>
+    <p class="lede reveal" style="max-width: 760px; color: var(--ink-mid);">
+      Each skill follows the same design: Python handles the deterministic work — parsing, validation, API calls, linting. Claude handles what LLMs do well — MITRE mapping, field translation, blast-radius reasoning, verdict synthesis. The result is reproducible, structured, production-ready output. No vibes. No guessing. No generic AI slop.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-cta reveal">
+      Ready to add these to<br>your <em>SOC workflow?</em>
+    </div>
+    <div class="hero-actions" style="justify-content: center;">
+      <a href="https://github.com/yourusername/cyber-skills" class="btn btn-primary">
+        Clone the repo →
+      </a>
+      <a href="data.html" class="btn btn-ghost">
+        See data roadmap →
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="data.html">Data</a>
+      <a href="https://github.com/yourusername/cyber-skills">GitHub</a>
+      <a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/">OWASP LLM Top 10</a>
+      <a href="https://attack.mitre.org/">MITRE ATT&amp;CK</a>
+    </div>
+    <div class="copyright">
+      Built with Claude · MIT License · © 2026
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script src="assets/demos.js"></script>
+</body>
+</html>

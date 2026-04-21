@@ -4,7 +4,7 @@ An open-source toolkit of Claude Skills for security and data engineering work. 
 
 Built for analysts and engineers who want consistent, structured, audit-ready output — not vibes.
 
-🌐 **Live portfolio site:** https://yourusername.github.io/cyber-skills/
+🌐 **Live portfolio site:** https://AuggieOshigoto96.github.io/agent-skills/
 
 ---
 
